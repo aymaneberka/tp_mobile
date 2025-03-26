@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">test</string>
+    <string name="hint_nombre_2">Enter Nombre 2</string>
+    <string name="text_nombre_2">Nombre 2</string>
+</resources>
