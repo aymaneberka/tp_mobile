@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:collapseColumns="2"
+    android:stretchColumns="2">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_span="2"
+        android:background="@color/purple_200"
+        android:text="Login"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:paddingLeft="150dp"
+        android:paddingRight="100dp"
+        android:paddingBottom="20dp"
+        android:paddingTop="15dp"
+        android:layout_marginBottom="25dp"/>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nom d'utilissateur:" />
+        <EditText
+            android:id="@+id/login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mot de passe:" />
+        <EditText
+            android:id="@+id/pwd"
+            android:layout_width="wrap_content"
+
+
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword" />
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/bt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:text="Connexion" />
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/bt2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+
+            android:text="google"
+             />
+    </TableRow>
+
+
+</TableLayout>
